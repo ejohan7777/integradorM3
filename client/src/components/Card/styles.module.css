@@ -1,0 +1,38 @@
+.container{
+   
+background-color: red;
+margin: 20px;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.button{
+    background-color: aqua;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 10px;  
+    height: 40px;
+    width: 40px;
+}
+
+.titulo{
+    color: yellow;
+    position: absolute;
+    bottom: 50px;
+    right: 25px;
+}
+
+.imagen{
+    width: 80%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.origin{
+    width: 80%;
+    text-align: center;
+    background-color: aqua;
+}
